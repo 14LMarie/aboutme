@@ -1,0 +1,143 @@
+/* CSS reset
+    (all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+}
+
+
+/* General styles
+    (the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer,
+.infographics {
+  text-align: center;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* Header styles
+    (all the styles inside the < header > or < nav > tags)
+*/
+header.masthead {
+  padding: 6em 0;
+  background-image: url(http://i1379.photobucket.com/albums/ah150/lteague8/water_zpsyegv1em2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .masthead-intro {
+   margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+  
+header .masthead-heading {
+   margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px white;
+}
+
+/* Content styles
+    (all the styles inside the < sections > or < aside > tags)
+*/
+section.intro,
+section.charlotte,
+section.moreme {
+  max-width: 48em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 0em;
+}
+
+section .intro-heading,
+section .charlotte-heading,
+section .moreme-heading {
+  font-family: Avenir;
+  font-size: 1.7em;
+  text-align: left;
+  margin: 0.8em 0em;
+}
+
+ section h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: em;
+}
+
+section.charlotte > h2 {
+  color: #46B29D;
+}
+
+section.moreme > h2 {
+  color: #E5B813;
+}
+
+section .bike,
+section .laptop,
+section .sun,
+section .tea,
+section .camera {
+  width: 7em;
+  padding: 0.3em;
+  margin: 2em 0em;
+}
+/* Footer styles
+    (all the styles inside the < footer > tag)
+*/
+footer.content-footer {
+  padding: 2em 0em;
+  background-color: #644D52;
+}
+
+footer.content-footer > p {
+  color: white;
+}
+
+footer .social {
+  font-weight: bold;
+  padding: 0.5em;
+  list-style: none;
+}
+
+footer .social > li {
+  display: inline-block;
+  margin-right: 0.8em; 
+}
+
+footer a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #F77A52;
+}
+
+footer a:hover {
+	color: #2F343B;
+}
+
+/* Responsive styles
+    (the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/
