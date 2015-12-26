@@ -1,7 +1,6 @@
 /* CSS reset
     (all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
 */
-
 * {
     margin: 0;
     padding: 0;
@@ -54,7 +53,7 @@ header .masthead-heading {
    margin-top: -0.2em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
-    font-size: 6em;
+    font-size: 5em;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     text-shadow: 2px 2px 1px white;
@@ -141,3 +140,36 @@ footer a:hover {
 /* Responsive styles
     (the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
 */
+
+@media only screen and (max-width: 850px) {
+    section.intro,
+    section.charlotte,
+    section.moreme {
+      padding: 0 3em;
+    }
+    footer.content-footer {
+      font-size: 1em;
+      padding: 3em 1em;
+    }
+}
+
+ @media only screen and (max-width: 600px) {
+    
+    section .bike,
+    section .laptop,
+    section .sun,
+    section .tea,
+    section .camera {
+  width: 4em;
+  }
+ }
+
+@media only screen and (max-width: 500px) {
+    header.masthead {
+      padding: 3em 0;
+    }
+    header .masthead-heading {
+      font-size: 3em;
+    }
+} 
+
