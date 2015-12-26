@@ -39,6 +39,7 @@ p {
 header.masthead {
   padding: 6em 0;
   background-image: url(http://i1379.photobucket.com/albums/ah150/lteague8/water_zpsyegv1em2.jpeg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -47,6 +48,7 @@ header .masthead-intro {
    margin-bottom: 0.1em;
     font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 2em;
+    color: white;
 }
   
 header .masthead-heading {
@@ -54,9 +56,9 @@ header .masthead-heading {
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 5em;
+    color: white;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    text-shadow: 2px 2px 1px white;
 }
 
 /* Content styles
