@@ -151,6 +151,13 @@ footer a:hover {
       font-size: 1em;
       padding: 3em 1em;
     }
+    section .bike,
+    section .laptop,
+    section .sun,
+    section .tea,
+    section .camera {
+  width: 5em;
+  }
 }
 
  @media only screen and (max-width: 650px) {
